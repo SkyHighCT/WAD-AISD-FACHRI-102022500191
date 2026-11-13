@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Data Tambah Penghuni Kos</title>
+<style>
+
+    
+
+    body {
+        background-color: aliceblue;
+    }
+
+    .title h1 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        background: #ffffff;
+        padding: 15px 25px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: #000000; 
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+    .btn {
+        padding: 10px 0;
+        width: 48%; 
+        border-radius: 8px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none; 
+    }
+
+    .btn-simpan {
+        background-color: #0d6efd;
+        color: white;
+    }
+
+    .btn-batal {
+        background-color: #e2e8f0;
+        color: #333;
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+    <h2>Tambah Penghuni Kos</h2>
+
+    <form action="manajemenkos.html">
+        
+        <div class="form-group">
+            <label>Nama Lengkap</label>
+            <input type="text" class="form-control" placeholder="Masukkan nama penghuni" required>
+        </div>
+
+        <div class="form-group">
+            <label>Nomor KTP</label>
+            <input type="number" class="form-control" placeholder="Contoh: 08..." required>
+        </div>
+
+        <div class="form-group">
+            <label>Pekerjaan</label>
+            <input type="text" class="form-control" placeholder="Contoh: Mahasiswa / Karyawan" required>
+        </div>
+
+        <div class="form-group">
+            <label>Nomor Kamar</label>
+            <select class="form-control" required>
+                <option value="" disabled selected>Pilih Kamar</option>
+                <option value="A-04">A-04</option>
+                <option value="A-02">A-02</option>
+                <option value="B-02">B-02</option>
+                <option value="B-04">B-04</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Kontak Darurat</label>
+            <input type="text" class="form-control" placeholder="Nama / Nomor HP" required>
+        </div>
+
+        <div class="btn-group">
+            <a href="manajemenkos.html" class="btn btn-batal">Batal</a>
+            <button type="submit" class="btn btn-simpan">Simpan Data</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
