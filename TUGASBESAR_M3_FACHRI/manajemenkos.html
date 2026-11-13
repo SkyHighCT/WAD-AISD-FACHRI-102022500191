@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Data Penghuni Kos</title>
+
+<style>
+    body {
+        background-color: aliceblue;
+        color: #333;
+    }
+
+    .title h1 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        padding: 15px 25px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+
+    .container2 a {
+        background-color: #0d6efd;
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .table1 {
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px ;
+        border: 1px solid #e2e8f0;
+        padding: 20px;
+    }
+
+    .data {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .data th, .data td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    .data thead tr {
+        background-color: #931b1b; 
+        color: #ffffff;
+    }
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="title">
+        <h1>Modul Data Penghuni</h1>
+    </div>
+
+    <div class="container2">
+        <h2>Daftar Penghuni Kos</h2>
+        <a href="tambah_copy.php">+ Tambah Penghuni</a>
+    </div>
+
+    <div class="table1">
+        <table class="data">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Nama</th>
+                    <th>No. KTP</th>
+                    <th>Pekerjaan</th>
+                    <th>No. Kamar</th>
+                    <th>Kontak Darurat</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Julank</td>
+                    <td>083333333333</td>
+                    <td>Mahasiswa</td>
+                    <td>A-01</td>
+                    <td>Didil (0812111111111)</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Julenk</td>
+                    <td>082222222222</td>
+                    <td>Mahasiswa</td>
+                    <td>B-03</td>
+                    <td>Tia (083111111111)</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Julonk</td>
+                    <td>081111111111</td>
+                    <td>Mahasiswa</td>
+                    <td>A-05</td>
+                    <td>Nana (082111111111)</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
